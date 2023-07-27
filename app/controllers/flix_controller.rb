@@ -1,0 +1,2 @@
+class FlixController < ApplicationController
+end

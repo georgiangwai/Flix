@@ -1,0 +1,36 @@
+$primary-color: #FF1694;
+$secondary-color: #F0F0F0;
+
+
+header#page-header {
+  color: $primary-color;
+  background: #FFC0CB;
+  padding: 5px;
+
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+footer#page-footer {
+  color: $secondary-color;
+  background:#FFC0CB;
+  padding: 5px;
+  text-align: center
+}
+
+aside#sidebar {
+  float: right;
+  background:$secondary-color;
+  width: 200px;
+}
+
+article.movie {
+  img {
+    float: left;
+    margin: 0 15px;
+    border: 3px solid #F0F0F0;
+  }
+}
+
